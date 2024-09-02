@@ -1,1 +1,1 @@
-git@github.com:Annabasss/slozhno-sosredotochitsya.git
+https://github.com/Annabasss/slozhno-sosredotochitsya.git
