@@ -111,6 +111,16 @@ position: relative;
     min-height: 26px;
 }
 
+.header__theme-menu-button:focus {
+    outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
 .header__title {
     color: var(--title-color);
     text-shadow: 4px 4px 0px #FF0070;
@@ -288,7 +298,18 @@ position: relative;
     text-shadow: 2px 2px 0px var(--link-shadow);
     text-decoration: none;
 }
+.focus-advice__paragraph-link:focus {
+    outline: none;
+}
 
+.focus-advice__paragraph-link:focus-visible {
+    border: 1px solid var(--main-text-color);
+    outline-offset: 1px;
+}
+
+.focus-advice__paragraph-link:hover {
+    border-bottom: 1px solid var(--main-text-color);
+}
 .card {
     padding: 0 20px;
     margin-block-start: 80px;
@@ -368,10 +389,6 @@ position: relative;
     .footer {
         padding: 10px;
     }
-}
-
-.decorated-zone {
-    height: max(100vh, 668px);
 }
 
 .footer__title {
