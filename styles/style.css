@@ -94,7 +94,7 @@
         flex-direction: column;
     }
 }
-@media (width >= 768px) {
+@media (width >= 769px) {
     .header__theme-menu {
         justify-self: center;
         align-self: start;
@@ -276,9 +276,9 @@
     }
 }
 
-@media (425px < width <= 768px) {
+@media (width <= 768px) {
     .title-decor {
-        max-width: 472px;
+        max-width: 530px;
     }
 }
 
